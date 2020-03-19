@@ -77,7 +77,8 @@ ggplot(data = diamonds) +
     mapping = aes(x = cut, y = depth),
     fun.ymin = min,
     fun.ymax = max,
-    fun.y = median
+    fun.y = medianfun.ymax = max,
+
   )
 
 
